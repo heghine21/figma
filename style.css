@@ -1,0 +1,273 @@
+body{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url("C:\Users\User\OneDrive\Рабочий стол\WEB\css\Montserrat (1)\static\Montserrat-Regular.ttf") format('truetype');
+    font-weight: normal;
+}
+
+.header {
+    width: 100%;
+    background-color: #7D4BE8;
+    margin-bottom: 0px;
+    height: 91px;
+    display: flex;
+}
+.h2{
+    color:white;
+    font-size: 24px;
+    margin-left: 195px;
+    margin-top:30px;
+}
+nav ul {
+    display: flex;
+    gap: 20px; 
+    list-style-type: none; 
+    margin-right: 240px; 
+    margin-left: 83px;
+    margin-top: 33px;
+}
+
+nav ul li a {
+    color: #fff; 
+    text-decoration: none; 
+}
+.top {
+    display: flex;
+    align-items: center; 
+}
+
+.top p {
+    margin-right: 40px;
+    margin-left:220px;
+    color:white;
+}
+
+.join {
+    background-color: #FF7B52; 
+    color: #fff; 
+    border: none; 
+    padding: 15px 25px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+.section1{
+    margin-top: 0px !important
+}
+.arajin {
+    color:white;
+    background-color:#7D4BE8 ;
+    height: 720px;
+    width: 100%;
+}
+.arajin div {
+    display: flex;
+    flex-direction: column;
+}
+.arajin button{
+    width: 170px;
+}
+.h1{
+    padding-top:250px;
+    font-size: 58px;
+    display: flex; 
+    justify-content: center;
+}
+.h4{
+    padding-top:40px;
+    font-size: 20px;
+    display: flex; 
+    justify-content: center;
+}
+.get{
+    background-color: #FF7B52; 
+    color: #fff; 
+    border: none; 
+    padding: 15px 25px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+.learn{
+    color: #fff; 
+    background-color:#7D4BE8 ;
+    border: 2px solid #FF7B52;
+    padding: 15px 25px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+
+.buttons {
+    align-items: center; 
+    gap: 10px; 
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+button:hover {
+    background-color:red ; 
+}
+
+.erkrord {
+    background-color:#26335D;
+    height: 768px;
+    width: 100%;
+    color:white;
+    display: flex;
+    flex-direction: column;
+}
+.h2second{
+    font-size: 40px;
+    padding-left: 195px;
+    margin-top: 5px;
+}
+.p1{
+    font-size: 14px;
+    padding-left:195px;
+    margin-top: 125px;
+    color:#7D4BE8;
+}
+.p2{
+    font-size: 14px;
+    padding-left: 195px;
+    margin-top: 5px;
+    width: 400px;
+}
+.ikons{
+    height: 340px;
+    width: 1049px;
+    margin: 70px 196px 112px 195px;
+    cursor: pointer; 
+}
+.erord{
+    background-color:#26335D;
+    height: 1096px;
+    width: 100%;
+    color:white;
+    display: flex;
+    flex-direction: column;
+}
+.p3{
+    font-size: 14px;
+    padding-left:195px;
+    margin-top: 125px;
+    color:#7D4BE8;
+}
+
+.h23{
+    font-size: 40px;
+    padding-left: 195px;
+    margin-top: 5px;
+}
+
+.p4{
+    font-size: 14px;
+    padding-left: 195px;
+    margin-top: 5px;
+    width: 400px;
+}
+.ikons2{
+    height: 602px;
+    width: 1049px;
+    margin: 112px 196px 112px 195px;
+    cursor: pointer; 
+}
+
+
+.chorord{
+    background-color:#26335D;
+    height: 805px;
+    width: 100%;
+    color:white;
+    display: flex;
+    flex-direction: column;
+}
+    
+.girl{
+    height: 561px;
+    width: 532px;
+    margin: 160px 713px 84px 195px;
+}
+
+.line{
+    width: 94px;
+    height: 7px;
+    margin-top: -300px;
+    margin-left: 850px;
+}
+
+.h24 {
+    font-size: 40px;
+    margin-top: -400px;
+    width: 255px;
+    margin-left: 850px;
+}
+
+.p5 {
+    font-size: 14px;
+    height: 60px;
+    width: 300px;
+    margin-left: 850px;
+}
+
+.p6 {
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-left: 850px;
+    color: #7D4BE8;
+}
+.hingerord {
+    background-color: #26335D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    height: 676px;
+    color: #fff;
+}
+
+.video {
+    width: 508px;
+    height: 363px;
+    padding-right: 180px;
+    cursor: pointer;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding-left: 150px;
+}
+
+.h25 {
+    font-size: 40px;
+}
+
+.p7, .p8 {
+    font-size: 14px;
+    width: 351px;
+}
+
+.p8 {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #7D4BE8;
+}
+
+.line2 {
+    width: 94px;
+    height: 7px;
+}
+
+footer{
+    cursor: pointer; 
+}   
